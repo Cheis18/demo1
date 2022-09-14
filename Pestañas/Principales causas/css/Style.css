@@ -1,0 +1,102 @@
+html
+body{
+  margin: 0%;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+  background:#123558;
+  color:#f1e1e1;
+  padding: 12px 0px;
+  height: 20%;
+  font-size: 4.0em;
+  }
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+.acordeon a:hover {
+  background-color: #4b3d27;
+}
+.acordeon ul li ul {
+  display: none;
+}
+.acordeon ul li a:hover + ul, .acordeon ul li ul:hover {
+  display: block;
+}
+section {
+  background: #090b0ed0;
+  overflow: auto;
+  padding-bottom: 60px;
+  padding-top:30px;
+  margin: 0%;
+}
+.box-model {
+  background-color: lightgrey;
+  width: 127vh;
+  border: 0.3vh solid rgb(43, 26, 104);
+  padding: 4vh;
+  margin: auto;
+  font-size: 3vh;
+  text-align: center;
+}
+figure {
+  display: table; margin: 0 auto;
+  color: #f5f2f2
+}
+
+img{
+  display: table; margin: 0 auto;
+  text-align: center;
+}
+
+  h1{
+    color:#f1e1e1;
+    font-size: 3.0em;
+  }
+  
+p {
+  color:  #dce2e7;
+  font-size: 3.5vh;
+}
+
+footer {
+  position: relative;
+  height: 15%;
+  padding: 5px 0px;
+  clear: both;
+  background: #3c476a;
+  text-align: center;
+  color: #f5f2f2
+}
+
+div a {
+  color: #fff;
+}
+div figure figcaption{
+  color: #f5f2f2
+}
+#divPersonalizado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: "red";
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  /*padding: 0; */
+  /*overflow: hidden;*/
+  background-color: #333;
+  display:flex;
+  justify-content: center;
+  /*position: initial;*/
+  /*min-width: 145px;*/
+  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+  position: sticky;
+} 

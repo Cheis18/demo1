@@ -1,0 +1,192 @@
+
+html
+header {
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+  background:#123558;
+  color:#f1e1e1;
+  padding: 12px 0px;
+  height: 20%;
+  font-size: 3.0em; /* 40px/16=2.5em */
+
+  }
+  h1{
+    color:  hsl(150, 83%, 39%)!important ;
+  }
+
+section {
+  width:71%;
+  background: rgb(215 209 241 / 49%);
+  float: left;
+  overflow: auto;
+  padding-bottom: 60px;
+  padding-top:30px;
+}
+
+aside {
+  float: right;
+  width: 29%;
+  /*Si quisieramos ocultar el contenido relacionado pondriamos visibility a hidden*/
+  /*visibility: hidden;*/
+}
+
+footer {
+  position: relative;
+  height: 15%;
+  padding: 5px 0px;
+  clear: both;
+  background: #57a15c;
+  text-align: center;
+  color: #fff;
+}
+
+figure {
+  display: table; margin: 0 auto;
+}
+
+img{
+  display: table; margin: 0 auto;
+  text-align: center;
+}
+
+div a {
+  color: #fff;
+}
+
+#divPersonalizado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: "red";
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+      
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #286af0;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#red-text { 
+  color: red;
+}
+
+#green-text {
+  color: green;
+}
+
+.highlighted {
+  background-color: lightblue;
+}
+
+#new-font {
+  font-family: Helvetica;
+}
+
+#new-font-size {
+  font-size: 24px;
+}
+
+p {
+  color:  #0b1013!important ;
+}
+
+.parrafo-body {
+  color:  #154360; 
+}
+
+#parrafo-id {
+  color: darkgreen;
+}
+
+.box-model {
+  background-color: lightgrey;
+  width: 300px;
+  border: 03px solid rgb(70, 102, 70);
+  padding: 50px;
+  margin: 20px;
+}
+.body{
+margin: 0%;
+}
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #3c476a;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #04AA6D;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
